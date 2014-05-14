@@ -1,0 +1,249 @@
+#leftContent #innerContent, #rightContent #innerContent, #cartContent
+{
+	margin: 20px;
+	padding: 10px;
+	background-color:#00759d;
+    color :#cbf2f7;
+    font-family : "Candara";
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .8);
+	border-radius: 5px;
+}
+
+#rightContent #innerContent
+{
+	margin-left: 0px;
+}
+
+#leftContent #innerContent a
+{
+	font-size: 18px;
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	padding: 5px 10px;
+	width: 70%;
+	transition: .1s;
+	cursor: pointer;
+}
+
+#leftContent #innerContent a:hover
+{
+	background-color:#00759d;
+    color :#cbf2f7;
+    font-family : "Candara";
+	-webkit-transform: scale(1.1, 1);
+    -moz-transform: scale(1.1, 1);
+	-webkit-transform-origin: left;
+    -moz-transform-origin: left;
+	transition: .2s;
+	width: 84%;
+}
+
+#serviceIntro
+{
+	margin-bottom: 50px;
+}
+
+#rightContent a
+{
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#leftContent input
+{
+	padding: 0px 10px;
+}
+
+#typeSize input
+{
+    padding: 5px;
+}
+
+/*initital Page*/
+
+#mainForm > #img
+{
+    background-color: black;
+    padding-top: 4px;
+    margin-bottom: 10px;
+}
+
+#mainForm > #img > img
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+#mainForm #button
+{
+    padding: 0px 10px;
+}
+
+/* service design */
+/*
+
+#tarpServices, #shirtServices
+{
+	margin: 10px;
+}
+
+#tbfTarp, #twbfTarp, #tbtTarp, #othTarp, #rnShirt, #pShirt, #cShirt
+{
+    background-position: center;
+	background-size: cover;
+	border: 2px solid rgb(211, 211, 211);
+	transition: .1s all;
+}
+
+#tbfTarp
+{
+	background-image: url("../osyet2/.jpg");
+}
+
+#twbfTarp
+{
+	background-image: url("../images/serviceImage1.jpg");
+}
+
+#tbtTarp
+{
+	background-image: url("../images/tarp2b3.jpeg");
+}
+
+#othTarp
+{
+    background-image: url("../images/tarpothers.jpg");
+}
+
+#rnShirt
+{
+    background-image: url("");
+}
+
+#pShirt
+{
+    background-image: url("");
+}
+
+#cShirt
+{
+    background-image: url("");
+}
+
+#tbfTarp, #tbtTarp, #twbfTarp, #othTarp, #rnShirt, #pShirt, #cShirt
+{
+	margin-bottom: 20px;
+}
+
+#tarpText, #shirtText
+{
+	text-align: center;
+*/
+/*	margin: 10px 50px;*/
+/*
+	background-color: rgba(211, 211, 211, .0);
+	border-radius: 5px;
+	font-size: 64px;
+	color: rgba(0, 0, 0, 1);
+	transition: .1s all;
+}
+
+#tbfTarp:hover, #tbtTarp:hover, #twbfTarp:hover, #othTarp:hover, #rnShirt:hover, #pShirt:hover, #cShirt:hover
+{
+	cursor: pointer;
+	border: 2px solid #000;
+	transition: .2s all;
+}
+
+#tbfTarp:hover #tarpText, #tbtTarp:hover #tarpText, #twbfTarp:hover #tarpText, #othTarp:hover #tarpText, #rnShirt:hover #shirtText, #pShirt:hover #shirtText, #cShirt:hover #shirtText
+{
+	color: rgba(0, 0, 0, 1);
+	transition: .2s all;
+	background-color: rgba(211, 211, 211, .5);
+}
+*/
+
+/* tarpServices */
+
+/*
+#imgloc
+{
+    text-align: center;
+    background-color: #000;
+    margin: 10px 0px;
+    height: 400px;
+}
+
+#cropimg
+{
+*/
+/*    height: inherit;*/
+/*    margin: 0px 200px;*/
+/*
+    background-color: red;
+    cursor: move;
+}
+
+#remarks
+{
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+#remarks textarea
+{
+    width: 95%;
+    height: 300px;
+    padding: 10px;
+}
+
+#typeSize span
+{
+    font-size: 20px;
+    margin: 10px;
+}
+*/
+
+/* cart */
+
+#cart table
+{
+    border: 1px solid black;
+}
+
+#cart table a
+{
+    color: blue;
+}
+
+#cart table tr td
+{
+    padding: 5px 0px;
+    border: 1px solid black;
+}
+
+#cart table th
+{
+    background-color: black;
+    color: white;
+    padding: 5px 0px;
+}
+
+#submitBtn
+{
+    padding: 10px 0px 0px 0px;
+}
+
+#submitBtn input
+{
+    cursor: pointer;
+}
+
+#thumbnails img:hover
+{
+    transition: .1s;
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+}

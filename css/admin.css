@@ -1,0 +1,52 @@
+*
+{
+    font-family: "calibri", "arial";
+}
+
+body
+{
+    background-color: rgb(211, 211, 211);
+    margin: auto;
+    width: 450px;
+    max-width: 450px;
+    min-width: 450px;
+}
+
+#header
+{
+    padding-bottom: 20px;
+}
+
+table
+{
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+#submitBtn 
+{
+    padding-top: 20px;
+}
+
+#submitBtn input
+{
+    padding: 5px;
+}
+
+#logInBox td
+{
+    padding: 5px;
+}
+
+#logInBox input
+{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+a
+{
+    color: blue;
+}

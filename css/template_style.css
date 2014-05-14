@@ -1,0 +1,120 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "calibri", "arial";
+}
+
+body
+{
+    margin: auto;
+    width: 1200px;
+    max-width: 1200px;
+    min-width: 1200px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .75);
+    font-family: "calibri", "arial";
+    background-color: rgb(211, 211, 211);
+}
+
+/* Style for Header >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#headerContent
+{
+    background-color: #000;
+    color: #fff;
+}
+
+#companyLogo
+{
+    padding: 20px 20px;
+}
+
+#navBox
+{
+    padding-right: 5px;
+}
+
+#navBox a
+{
+    padding: 0px 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px 5px 0px 0px;
+    transition: .1s;
+}
+
+#navBox a:hover
+{
+    background-color: rgb(255, 35, 255);
+    color: #000;
+    border-radius: 5px 5px 0px 0px;
+    transition: .2s;
+}
+
+#logIn
+{
+    padding: 5px 10px;
+}
+
+#logIn a
+{
+    color: #fff;
+    padding: 2px;
+    border-radius: 2px;
+    transition: .1s;
+}
+
+#logIn a:hover
+{
+    color: #000;
+    background-color: rgb(255, 35, 255);
+    transition: .2s;
+}
+
+strong
+{
+    text-transform: uppercase; 
+}
+
+/* end for Header Style >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* Body Style*/
+#bodyContent
+{
+    width: inherit;
+    max-width: inherit;
+    min-width: inherit;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, .7);
+}
+/* End of Body style >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/* footer style */
+
+#footerContent
+{
+    background-color: #000;
+    color: #888;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#footerNavBox a
+{
+    color: #888;
+    padding: 2px;
+    border-radius: 5px;
+    transition: .1s;
+}
+
+#footerNavBox a:hover
+{
+    color: #fff;
+    transition: .2s;
+}
+
+/* end of footer style */

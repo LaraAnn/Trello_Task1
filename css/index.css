@@ -1,0 +1,115 @@
+#bodyContent
+{
+    height: 450px;
+}
+
+hr
+{
+    width: 90%;
+    margin: auto;
+}
+
+/* body>>events(left) style */
+
+#events
+{
+    display: inline-block;
+    float: left;
+    width: 300px;
+    height: inherit;
+    overflow-y: scroll;
+    cursor: default;
+}
+
+#events div
+{
+    margin: 10px 20px;
+    padding: 30px 15px;
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+
+/* end for body>>events(left) style >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* body>>slider(right) style */
+
+#slider
+{
+    display: inline-block;
+    width: 900px;
+    height: 100%;
+    overflow-x: hidden;
+    cursor: default;
+}
+
+#slider .slide
+{
+    display: inline-block;
+    float: left;
+    width: 900px;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+#overflow
+{
+    width: 2700px;
+    height: 100%;
+    transition: .5s all;
+    transition-timing-function: ease-in-out;
+}
+
+#sliderImage
+{
+    display: table-cell;
+    float: left;
+    height: 100%;
+}
+
+#sliderImage
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sliderImage.s1
+{
+    background-image: url("../images/indexImage1.jpg");
+}
+
+#sliderImage.s2
+{
+    background-image: url("../images/indexImage2.jpg");
+}
+
+#sliderImage.s3
+{
+    background-image: url("../images/indexImage3.jpg");
+}
+
+#sliderDesc
+{
+    width: 900px;
+}
+
+#sliderDesc div
+{
+    margin: 50px 30px;
+    padding: 10px;
+    max-height: 450px;
+    overflow-y: hidden;
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+
+#sliderBtns
+{
+    position: absolute;
+    padding: 5px 10px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    cursor: default;
+}

@@ -1,0 +1,25 @@
+editor
+{
+    position: absolute;
+    margin: 5px 10px;
+    opacity: .5;
+    display: block;
+    transition: .1s;
+}
+
+editor input
+{
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+#events:hover editor, #slider:hover editor, header:hover editor, footer:hover editor, #innerBody:hover editor, #insideContent:hover editor, #contactContent:hover editor, #rightContent:hover editor
+{
+    opacity: 1;
+    transition: .2s;
+}
+
+footer editor
+{
+    margin: 0px 10px;
+}
